@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slots with Styles</title>
+    <script type="module">
+      import './slots-element.js';
+    </script>
+  </head>
+  <body>
+    <h2>Estilos en slots</h2>
+
+    <slots-element>
+      <p>Slotted paragraph</p>
+      <span slot="hi">Slotted span inside a div</span>
+    </slots-element>
+  </body>
+</html>
